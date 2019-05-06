@@ -1,0 +1,678 @@
+body {
+	font-family: "Montserrat";
+	margin: 0;
+}
+
+.body__wrap {
+	max-width: 1440px;
+	margin: 0 auto;
+	/*outline: 1px solid gold;*/
+}
+
+/* logo + menu */
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 24px 50px 58px 49px;	
+	height: 51px;
+}
+
+.header__mini-logo {
+	background: url(../img/Tesla-Wordmark-Red.png) no-repeat;	
+	width: 166px;
+	height: 51px;
+}
+
+.nav-menu {
+	margin-left: 129px;
+}
+
+.nav-menu__chosen {
+	color: #E51937;
+	text-align: right;
+	position: relative;
+}
+
+.nav-menu__vector {
+	position: absolute;
+	bottom: -8px;
+	left: 0;
+	width: 60px;
+	height: 2px;
+	background: #E51937;
+}
+
+.nav-menu__item {
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 600;
+	margin-right: 40px;
+	color: #000000;
+}
+
+.nav-menu__item:nth-child(4) {
+	margin-right: 42px;
+}
+
+.nav-actions {
+	display: flex;
+	align-items: center;
+}
+
+.nav-actions__item {
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 600;
+	margin-left: 30px;
+	color: #000000;
+}
+
+.burger-menu {
+	width: 24px;
+	height: 11px;
+	display: inline-block;
+    position: relative;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+
+.burger-menu:after {
+	content: "";
+    position: absolute;
+    display: block;
+    right: 0;
+    left: 0;
+    top: 5px;
+    height: 2px;
+    background: red;
+}
+
+/* section 1 */
+.presentation {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	margin-bottom: 21px;
+}
+
+.presentation__bg-logo {	
+	text-align: center;
+}
+
+.presentation__title {
+	margin: auto;
+	font-size: 90px;
+	font-weight: 600;
+	color: #000;
+}
+
+.presentation__text {
+	margin: auto;
+	font-size: 15px;
+	font-weight: 500;
+	color: #000;
+	margin-top: -10px;
+}
+
+.presentation__bg-image {
+	max-width: 100%;
+	height: auto;
+	margin-top: -117px;
+}
+
+/* footer-info-section 1 */
+.header__indicators-action {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 34px;
+
+}
+
+.header__indicators {
+	display: flex;
+	height: 58px;
+}
+
+.indicators__acceleration {
+	display: flex;
+	align-items: center;
+	margin-right: 70px;
+}
+
+.indicators__speed-icon {
+	background: url(../img/Speed.svg) no-repeat;
+	width: 46px;
+	height: 35px;
+	margin-right: 14px;
+}
+
+.indicators__parametr1 {
+	display: flex;
+	flex-direction: column;
+	width: 105px;
+}
+
+.indicators__parametr2 {
+	display: flex;
+	flex-direction: column;
+	width: 98.5px;
+	padding-bottom: 2px;
+	box-sizing: border-box;
+}
+
+.indicators__number1 {	
+	font-size: 35px;
+	font-weight: 600;
+	color: #000;
+	height: 43px;
+}
+
+.indicators__sec {
+	font-size: 20px;
+	font-weight: 600;
+	color: #000;
+	padding-left: 7px;
+}
+
+.indicators__speed100 {
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	height: 15px;
+	margin-top: -2px;
+}
+
+
+.indicators__pwr-reserve {
+	display: flex;
+	align-items: flex-end;	
+	margin-right: 105px;
+	width: 140px;
+}
+
+.indicators__road-icon {
+	background: url(../img/Road-icon.svg);
+	width: 30.5px;
+	height: 50px;
+	margin-right: 11px;	
+}
+
+.indicators__number2 {	
+	font-size: 35px;
+	font-weight: 600;
+	color: #000;
+	height: 43px;
+}
+
+.indicators__distance {
+	font-size: 20px;
+	font-weight: 600;
+	color: #000;
+	padding-left: 7px;
+}
+
+.indicators__reserve {
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	height: 15px;
+	margin-top: -2px;
+}
+
+.test-drive {
+	display: flex;
+	align-items: center;
+	margin: 4px 40px 0 0;
+	text-decoration: none;	
+	width: 118px;
+	color: #000;
+}
+
+.test-drive__wheel-icon {
+	width: 22px;
+	height: 22px;
+	margin-right: 7px;
+}
+
+.test-drive__text {
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;	
+}
+
+.test-drive:hover {
+	color: #E51937;	
+	fill: #E51937;
+}
+
+.btn {
+	font-family: "Montserrat";
+	width: 160px;
+	height: 40px;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	text-align: center;
+	border: 2px solid;
+}
+
+.order__button {
+	border: 2px solid #E51937;
+	background: #FFF;
+	color: #E51937;
+	margin-top: 3px;
+	padding-bottom: 2px;
+	padding-left: 7px;
+}
+
+.order__button:hover {
+	background: #E51937;
+	color: #FFF;
+	cursor: pointer;
+}
+
+.vector {	
+	display: flex;
+	justify-content: center;
+	margin-bottom: 86px;
+}
+
+.vector:before {
+	content: "";
+    background: url(../img/Vector.svg) no-repeat;
+    width: 34px;
+	height: 24px;
+}
+
+/* section 2*/
+h2 {
+	margin: 0;
+}
+
+.main {	
+}
+
+.advantage__bg {
+	display: flex;
+	justify-content: space-between;
+}
+
+.advantage__subtitle {
+	font-weight: 600;
+	font-size: 70px;
+	color: #E51937;
+	margin-left: 8.1%;
+	margin-top: 8px;
+}
+
+.advantage__bg-image{
+	background: url(../img/tesla-bg-image.png) no-repeat;
+	width: 100%;
+	height: 844px;
+	/*outline: 1px solid red;*/
+}
+
+h3 {
+	margin: 0;
+	font-weight: 600;
+	font-size: 30px;
+}
+
+p {
+	margin: 0;
+}
+
+.sidebar {	
+	box-sizing: border-box;
+	background: #E51937;
+	color: #fff;
+	width: 440px;
+	height: 900px;
+}
+
+
+.advantage__sidebar {
+	padding: 51px 72px 63px 52px;
+	margin-top: -56px;
+	
+}
+
+.advantage__header {
+	width: 316px;
+	height: 37px;
+	margin-bottom: 11px;
+}
+
+.block-text {
+	font-weight: 500;
+	font-size: 15px;	
+}
+
+.advantage__text {
+	width: 316px;
+	height: 206px;
+	margin-bottom: 54px;
+}
+
+.advantage__display {
+	display: flex;
+	margin-bottom: 38px;
+}
+
+.advantage__screen-icon {
+	background: url(../img/screen.png) no-repeat;
+	width: 36px;
+	height: 53px;
+	margin-right: 19px;
+	margin-top: 12px;
+}
+
+.advantage__description {
+	display: flex;
+	flex-direction: column;
+}
+
+.advantage__number {
+	font-size: 35px;
+	font-weight: 600;
+	margin-right: 6px;
+}
+
+.advantage__inch {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.advantage__description-one {
+	font-weight: normal;
+	font-size: 12px;
+	margin-top: -2px;
+}
+
+.advantage__wireless {
+	display: flex;
+	align-items: center;
+	margin-bottom: 25px;
+	margin-left: -4px;
+}
+
+.advantage__wifi-icon {
+	background: url(../img/wifi.png) no-repeat;
+	min-width: 44px;
+	height: 34px;
+	margin-right: 20px;
+	margin-top: -6px;
+}
+
+.advantage__update {
+	font-weight: 600;
+	line-height: 18px;
+	font-size: 20px;
+	margin-bottom: 2px;
+}
+
+.advantage__description-two {
+	font-weight: normal;
+	font-size: 12px;
+}
+
+.advantage__capacity {
+	display: flex;
+	align-items: center;
+	margin-bottom: 170px;
+}
+
+.advantage__bag-icon {
+	background: url(../img/bag.png) no-repeat;
+	width: 36px;
+	height: 52px;
+	margin-right: 24px;
+	margin-top: 5px;
+}
+
+.advantage__liter {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.advantage__description-three {
+	font-weight: normal;
+	font-size: 12px;
+	margin-top: -2px;
+	height: 30px;
+	display: inline-block;
+}
+
+.i-order_block {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 347px;
+	height: 40px;
+	box-sizing: border-box;
+}
+
+.advantage__i-order {	
+	margin-left: -3px;
+	padding-bottom: 3px;
+}
+
+.advantage__i-icon {
+	min-width: 22px;
+	height: 22px;
+	fill: #E51937;
+	color: #fff;
+}
+
+.advantage__i-icon:hover {
+	fill: #fff;
+	color: #E51937;
+}
+
+.advantage__learn-more {
+	font-weight: bold;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-left: -3px;
+	margin-right: 22px;
+	width: 147px;
+	text-align: center;
+}
+
+.advantage__button {
+	border: 2px solid #fff;
+	background: #E51937;
+	color: #fff;
+	margin-top: 3px;
+	padding-bottom: 3px;
+	box-sizing: border-box;
+}
+
+.advantage__button:hover {
+	background: #fff;
+	color: #E51937;
+}
+
+/*section 3*/
+
+.main__safety {
+	display: flex;
+}
+
+.safety__sidebar {
+	padding: 51px 68px 60px 56px;
+}
+
+.safety__header {
+	margin-bottom: 13px;	
+}
+
+.safety__text {
+	line-height: 18px;
+	margin-bottom: 56px;
+}
+
+.safety__mark {
+	margin-bottom: 29px;
+}
+
+.safety__rating-table {
+	margin-bottom: 102px;
+}
+
+.safety__rating-category {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 17px;
+	margin-right: 25px;
+}
+
+.safety__rating-text {	
+	font-weight: bold;
+	line-height: normal;
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+.safety__rating-text span{
+    font-size: 10px;
+    opacity: .7;
+}
+
+.safety__rating-stars {
+	background: url(../img/Star.svg) 50% 100%;
+	width: 125px;
+}
+
+.safety__five-stars {
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+	margin-bottom: 60px;
+}
+
+.safety__five-stars-icon {
+	background: url(../img/security.png) no-repeat;
+	width: 62px;
+	height: 74px;
+	padding-right: 26.5px;
+	margin-top: 10px;
+}
+
+.safety__five-stars-text {
+}
+
+.safety__five-stars-top {
+	font-weight: 600;
+	font-size: 50px;
+	padding-left: 23px;
+	margin-bottom: -9px;
+	display: inline-block;
+}
+
+.safety__five-stars-bot {
+	font-size: 25px;
+	font-weight: 600;
+	padding-left: 22px;
+	display: inline-block;	
+}
+
+
+
+.safety__i-order {
+	padding-bottom: 3px;
+	margin-right: auto;
+	margin-left: -18px;
+}
+
+.safety__i-icon {
+	min-width: 22px;
+	height: 22px;
+	fill: #E51937;
+	color: #fff;
+}
+
+.safety__i-icon:hover {
+	fill: #fff;
+	color: #E51937;
+}
+
+.safety__learn-more {
+	font-weight: bold;
+	font-size: 13px;
+	text-transform: uppercase;
+	margin-left: -3px;
+	width: 147px;
+    box-sizing: border-box;
+    text-align: left;
+    padding-left: 1px;
+}
+
+.safety__button {
+	border: 2px solid #fff;
+	background: #E51937;
+	color: #fff;
+	margin-top: 3px;
+	padding-bottom: 3px;
+	box-sizing: border-box;
+}
+
+.safety__button:hover {
+	background: #fff;
+	color: #E51937;
+}
+
+.safety__frame {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 900px;
+    width: calc(100% - 440px);
+}
+
+.safety__bg-header {
+	font-weight: 600;
+	font-size: 200px;
+	color: #E51937;
+	opacity: 0.1;
+	text-align: right;
+    padding-top: 97px;
+}
+
+.safety__image {
+	max-width: 100%;
+}
+
+.safety__image-m {
+	display: none;
+}
+
+
+.safety__car-frame {
+	margin-top: -265px;
+    margin-left: -95px;
+}
+
+.safety__WHS-logo {
+	display: flex;
+	align-self: flex-end;
+	background: url(../img/yellow-logo.png) right no-repeat;
+	width: 162px;
+	height: 22px;
+	margin-right: 25px;
+	margin-bottom: 16px;
+}
+
+.safety__develop {
+	font-weight: bold;
+	font-size: 8px;
+	color: #000000;
+	text-transform: uppercase;
+	padding-top: 2px;
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Каталог</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="body-wrap">
+		<div class="gray-wrap gray-wrap-market">
+			<header class="header">
+				<a href="index.html"><img class="header__logo" src="img/nerds-logo.png" alt=""></a>
+				<nav class="header__nav nav-menu">
+					<a class="nav-menu__link" href="index.html">Студия</a>
+					<a class="nav-menu__link" href="#">Клиенты</a>
+					<a class="nav-menu__link nav-menu__link--active" href="#">Магазин</a>
+					<a class="nav-menu__link" href="#">Контакты</a>
+				</nav>
+				<nav class="nav-action">
+					<a class="nav-action__link" href="#"><img src="img/cart-icon.png" alt=""></a>
+					<a class="nav-action__link" href="#">Корзина</a>
+				</nav>				
+			</header>
+			<h1 class="header__market-title">Магазин готовых шаблонов</h1>
+		</div>
+
+		<main class="main templates">
+			<aside class="templates__filter">
+				<div class="templates__price">
+					<div class="templates__filter-cost uppercase">Стоимость:</div>
+					<div class="templates__cost-toddler">
+						<input type="range" min="0" max="20000" step="100" value="15000">
+					</div>
+					<div class="templates__cost-range">
+						<span class="templates__cost-from">от</span>
+						<div class="templates__cost-numb">0</div>
+						<span class="templates__cost-before">до</span>
+						<div class="templates__cost-numb">15 000</div>
+					</div>
+				</div>
+
+				<ul class="templates__grid">
+					<li><h3 class="templates__filter-grid uppercase">Сетка:</h3></li>
+					<div class="templates__grid-box">
+						<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+							<path d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z"/><circle cx="12.5" cy="12.5" r="4.5"/>
+						</svg>
+						<li class="templates__grid-item">Адаптивная</li>
+					</div>
+					<div class="templates__grid-box">
+						<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve">
+							<path d="M12.5,4c4.687,0,8.5,3.813,8.5,8.5c0,4.687-3.813,8.5-8.5,8.5C7.813,21,4,17.187,4,12.5C4,7.813,7.813,4,12.5,4 M12.5,0
+								C5.597,0,0,5.597,0,12.5S5.597,25,12.5,25S25,19.403,25,12.5S19.403,0,12.5,0L12.5,0z"/>
+						</svg>
+						<li class="templates__grid-item">Фиксированная</li>
+					</div>
+					<div class="templates__grid-box">
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="25px" height="25px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve">
+							<path d="M12.5,4c4.687,0,8.5,3.813,8.5,8.5c0,4.687-3.813,8.5-8.5,8.5C7.813,21,4,17.187,4,12.5C4,7.813,7.813,4,12.5,4 M12.5,0
+								C5.597,0,0,5.597,0,12.5S5.597,25,12.5,25S25,19.403,25,12.5S19.403,0,12.5,0L12.5,0z"/>
+						</svg>
+						<li class="templates__grid-item">Резиновая</li>
+					</div>
+				</ul>
+
+				<ul class="templates__features">
+					<li><span class="templates__filter-features uppercase">Особенности:</span></li>
+					<div class="templates__features-box">
+						<svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23">
+							<path d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/>
+							<path d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/>
+						</svg>
+						<li class="templates__features-item">Слайдер</li>
+					</div>
+					<div class="templates__features-box">
+						<div class="templates__align-svg">
+							<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+								<path d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/>
+							</svg>
+						</div>
+						<li class="templates__features-item">Блок преимуществ</li>
+					</div>
+					<div class="templates__features-box">
+						<svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23">
+							<path d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/>
+							<path d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/>
+						</svg>
+						<li class="templates__features-item">Новости</li>
+					</div>
+					<div class="templates__features-box">
+						<div class="templates__align-svg">
+							<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+								<path d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/>
+							</svg>
+						</div>
+						<li class="templates__features-item">Галерея</li>
+					</div>
+					<div class="templates__features-box">
+						<div class="templates__align-svg">
+							<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23">
+								<path d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/>
+							</svg>
+						</div>
+						<li class="templates__features-item">Корзина</li>
+					</div>
+				</ul>
+				<button class="templates__filter-btn" type="button">Показать</button>
+			</aside>
+
+			<section class="templates__catalog">
+				<nav class="catalog__sort-bar">
+					<span class="templates__sort-title uppercase">Сортировать:</span>
+					<div class="templates__sort-menu">
+						<div class="templates__sort-item">
+							<span><a href="#">по цене</a></span>
+							<span><a href="#">по типу</a></span>
+							<span><a href="#">по названию</a></span>
+						</div>	
+						<div class="templates__trigger">
+							<span><a class="templates__trigger-bot" href="#">
+								<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path d="M5.5 10L0 0h11"/></svg></a>
+							</span>
+							<span><a class="templates__trigger-top" href="#">
+								<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path d="M5.5 0L0 10h11z"/></svg></a>
+							</span>
+						</div>
+					</div>				
+				</nav>
+				<div class="templates__catalog-galery">
+					<div class="templates__card-item">
+						<img class="templates__item-hat" src="img/browser.svg" alt="">
+						<img class="templates__galery-item" alt="" src="img/img-sedona.jpg">
+						<div class="templates__order-window">
+							<h3 class="uppercase">Sedona</h3>
+							<p>Информационный сайт<br>для туристов</p>
+							<button class="templates__order-btn">9 900 руб.</button>
+						</div>
+					</div>
+					<div class="templates__card-item">
+						<img class="templates__item-hat" src="img/browser.svg" alt="">
+						<img class="templates__galery-item" alt="" src="img/img-pink.jpg">
+						<div class="templates__order-window">
+							<h3 class="uppercase">Pink App</h3>
+							<p>Продуктовый лендинг<br>приложения для iOS и Android</p>
+							<button class="templates__order-btn">9 900 руб.</button>
+						</div>
+					</div>
+					<div class="templates__card-item">
+						<img class="templates__item-hat" src="img/browser.svg" alt="">
+						<img class="templates__galery-item" alt="" src="img/img-barbershop.jpg">
+						<div class="templates__order-window">
+							<h3 class="uppercase">Barbershop</h3>
+							<p>Сайт салоны красоты.<br>Для мужчин, да.</p>
+							<button class="templates__order-btn">9 900 руб.</button>
+						</div>
+					</div>
+					<div class="templates__card-item">
+						<img class="templates__item-hat" src="img/browser.svg" alt="">
+						<img class="templates__galery-item" alt="" src="img/img-mishka.jpg">
+						<div class="templates__order-window">
+							<h3 class="uppercase">MISHKA</h3>
+							<p>Интернет-магазин<br>вязаных игрушек</p>
+							<button class="templates__order-btn">9 900 руб.</button>
+						</div>
+					</div>
+					<div class="templates__card-item">
+						<img class="templates__item-hat" src="img/browser.svg" alt="">
+						<img class="templates__galery-item" alt="" src="img/img-aplus.jpg">
+						<div class="templates__order-window">
+							<h3 class="uppercase">A Plus</h3>
+							<p>Лендинг курсов повышения<br>квалификации</p>
+							<button class="templates__order-btn">9 900 руб.</button>
+						</div>
+					</div>
+					<div class="templates__card-item">
+						<img class="templates__item-hat" src="img/browser.svg" alt="">
+						<img class="templates__galery-item" alt="" src="img/img-kvast.jpg">
+						<div class="templates__order-window">
+							<h3 class="uppercase">КВАСТ</h3>
+							<p>Промо-сайт производителя<br>крафтового кваса</p>
+							<button class="templates__order-btn">9 900 руб.</button>
+						</div>
+					</div>
+				</div>
+				<nav class="templates__catalog-pages">
+					<button class="templates__pages-btn">1</button>
+					<button class="templates__pages-btn">2</button>
+					<button class="templates__pages-btn">3</button>
+					<button class="templates__pages-btn">Следующая</button>
+				</nav>
+			</section>
+		</main>
+
+			<section class="location">
+				<div class="location__form">
+					<b class="location__company">NЁRDS DESIGN STUDIO</b>
+					<p class="location__address">191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8</p>
+					<p class="location__tel">тел. +7(812)275-75-75</p>
+					<button class="location__btn">Напишите нам</button>
+				</div>
+				<div class="location__marker"></div>
+			</section>
+
+		<footer class="footer">
+			<div class="social">
+				<a href="#"><div class="social__vk"></div></a>
+				<a href="#"><div class="social__fb"></div></a>
+				<a href="#"><div class="social__insta"></div></a>
+			</div>
+			<p class="social__text"><b class="social__text-b">Давайте дружить, это выгодно!</b><br>Скидка 10% для друзей из социальных сетей.</p>
+		</footer>
+	</div>
+</body>
+</html>
