@@ -1,6 +1,6 @@
 # ZulpikarovZ.github.io
 My html/css/js works:  
 https://zulpikarovz.github.io/nerds/  
-ZulpikarovZ.github.io/tesla/  
-ZulpikarovZ.github.io/findTheBag/  
-ZulpikarovZ.github.io/testShop/
+https://zulpikarovZ.github.io/tesla/  
+https://zulpikarovZ.github.io/findTheBag/  
+https://zulpikarovZ.github.io/testShop/
