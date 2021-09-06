@@ -1,5 +1,5 @@
 # ZulpikarovZ.github.io
-My works:  
+My js/css/html works:
 ZulpikarovZ.github.io/nerds/  
 ZulpikarovZ.github.io/tesla/  
 ZulpikarovZ.github.io/findTheBag/  
