@@ -1,15 +1,9 @@
 # My works: 
-- [Nerds](#Nerds)
 - [Tesla](#Tesla)
+- [Nerds](#Nerds)
 - [Игра: Найди баг](#Bug)
 - [Тестовый макет](#test)
 
-## Nerds <a name="Nerds"></a>
-https://zulpikarovz.github.io/nerds/ - верстка макета и немного JS'a.  
-![image](https://user-images.githubusercontent.com/45043894/138612030-afc9fde4-cfa5-4a2a-b0a3-c911cbf388b2.png)
-![image](https://user-images.githubusercontent.com/45043894/138612060-cd7125b4-9ae9-481f-877c-201af0fbf121.png)
-![image](https://user-images.githubusercontent.com/45043894/138612065-d8a8f3e5-1834-4778-8659-f2a27afc753d.png)
-![image](https://user-images.githubusercontent.com/45043894/138612077-aa7464f8-f16c-4d86-b0fb-0c66c8bd4554.png)
 ## Tesla <a name="Tesla"></a>
 https://zulpikarovZ.github.io/tesla/ - адаптивный лендинг с использованием Flexbox.  
 Адаптив под десктоп.
@@ -22,6 +16,13 @@ https://zulpikarovZ.github.io/tesla/ - адаптивный лендинг с и
 
 Адаптив под телефоны.               
 ![image](https://user-images.githubusercontent.com/45043894/138612666-c0b76205-f80f-42ad-8ef9-7f3b2c3fd08c.png)
+
+## Nerds <a name="Nerds"></a>
+https://zulpikarovz.github.io/nerds/ - верстка макета и немного JS'a.  
+![image](https://user-images.githubusercontent.com/45043894/138612030-afc9fde4-cfa5-4a2a-b0a3-c911cbf388b2.png)
+![image](https://user-images.githubusercontent.com/45043894/138612060-cd7125b4-9ae9-481f-877c-201af0fbf121.png)
+![image](https://user-images.githubusercontent.com/45043894/138612065-d8a8f3e5-1834-4778-8659-f2a27afc753d.png)
+![image](https://user-images.githubusercontent.com/45043894/138612077-aa7464f8-f16c-4d86-b0fb-0c66c8bd4554.png)
 
 ## Игра: Найди баг <a name="Bug"></a>
 https://zulpikarovZ.github.io/findTheBag/ - карточная игра на JavaScript для проверки интуиции. Найдите "баг". 
